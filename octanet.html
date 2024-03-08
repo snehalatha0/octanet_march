@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600; /* Customize your button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    background-color: #f5f5f5; /* Customize your section background color */
+    padding: 50px 0;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+#about {
+    padding: 50px 0;
+}
+
+#contact {
+    background-color: #333; /* Customize your section background color */
+    color: white;
+    padding: 50px 0;
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6600; /* Customize your button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333; /* Customize your footer background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+    <title>Your Stunning Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Your Brand</h1>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to Your Brand</h1>
+            <p>Your catchy tagline goes here.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Description of Feature 1.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Description of Feature 2.</p>
+            </div>
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Description of Feature 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Provide a brief description of your company and its values.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Brand. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
